@@ -1,5 +1,38 @@
 
 h1{
     color: blueviolet;
+    font-size: 8em;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: #FAF6F0;
+    cursor: crosshair;
+}
+div {
+    background-color:#F4EAE0 ;
+    padding:40px ;
+    margin: 60px;
+}
+a:hover {
+    color:blueviolet ;
+    font-size: 1.6em;
+}
+a:visited {
+color: cornflowerblue;
+}
+.links {
+   color: brown; 
+   text-decoration: none;
+   
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+#u-list{
+    list-style-type: georgian;
+}
+h3 {
+    text-align: center;
 }
