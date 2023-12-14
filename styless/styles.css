@@ -1,9 +1,37 @@
 
+header{
+    background:#F4DFC8 ;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav{
+    float: left;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li { 
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #F4BF96;
+}
 h1{
     color: blueviolet;
     font-size: 8em;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 body {
     background-color: #FAF6F0;
     cursor: crosshair;
@@ -18,7 +46,7 @@ a:hover {
     font-size: 1.6em;
 }
 a:visited {
-color: cornflowerblue;
+color: rgb(137, 94, 41);
 }
 .links {
    color: brown; 
