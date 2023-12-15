@@ -18,7 +18,8 @@ nav ul li {
     font-size: 15px;
 }
 nav ul li a{
-    display: block;
+    display: flex;
+    border-radius: var(24px);
     padding: 10px;
     color: #fff;
     text-decoration: none;
@@ -27,7 +28,7 @@ nav ul li:hover {
     background: #F4BF96;
 }
 h1{
-    color: blueviolet;
+    color: rgb(226, 104, 43);
     font-size: 8em;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -40,6 +41,9 @@ div {
     background-color:#F4EAE0 ;
     padding:40px ;
     margin: 60px;
+}
+.titulo {
+    background-color: bisque;
 }
 a:hover {
     color:blueviolet ;
@@ -63,4 +67,8 @@ img:hover {
 }
 h3 {
     text-align: center;
+}
+.container {
+    display: flexbox;
+    
 }
