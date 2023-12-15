@@ -43,7 +43,7 @@ div {
     margin: 60px;
 }
 .titulo {
-    background-color: bisque;
+    background-image: url(./images/fondo.jpg) ;
 }
 a:hover {
     color:blueviolet ;
