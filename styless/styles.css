@@ -73,3 +73,18 @@ h3 {
     display: flexbox;
     
 }
+form {
+    
+    box-sizing: border-box;
+    padding: 1em;
+    background: #fff url(/images/fondo.jpg);
+}
+button {
+    padding: 1em;
+    border:#F4BF96;
+    background:#F4DFC8;
+    border-radius: 6em;
+}
+button:hover {
+color: #d16f25;
+}
