@@ -1,12 +1,14 @@
 
-header{
+.header{
     background:#F4DFC8 ;
     width: 100%;
     position: fixed;
-    z-index: 100;
+
 }
+
 nav{
     float: left;
+    margin-left: 10%;
 }
 nav ul {
     list-style: none;
@@ -26,6 +28,7 @@ nav ul li a{
 }
 nav ul li:hover {
     background: #F4BF96;
+    border-radius: 60px;
 }
 h1{
     color: rgb(226, 104, 43);
@@ -35,15 +38,18 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 body {
     background-color: #FAF6F0;
-    cursor: crosshair;
+   
 }
+
+
+
 div {
     background-color:#F4EAE0 ;
     padding:40px ;
     margin: 60px;
 }
 .titulo {
-    background-image: url(./images/fondo.jpg) ;
+ 
     text-align: center;
 }
 a:hover {
@@ -53,6 +59,7 @@ a:hover {
 a:visited {
 color: rgb(137, 94, 41);
 }
+
 .links {
    color: brown; 
    text-decoration: none;
@@ -63,16 +70,23 @@ img:hover {
     transition: 0.5s;
 
 }
-#u-list{
-    list-style-type: georgian;
-}
-h3 {
+
+
+
+h3, h2 {
     text-align: center;
+    font-family: 'Lucida Sans';
 }
 .container {
     display: flexbox;
     
 }
+
+.container img {
+    width: 300px;
+    height: 300px;
+}
+
 form {
     margin: 10em;
     box-sizing: border-box;
@@ -81,18 +95,40 @@ form {
     justify-content: center;
     color: #d16f25;
 }
-input {
+
+
+label {
     color: #d16f25;
+
 }
+
+input{
+    background-color: #F4EAE0;
+    border-radius: 60px;
+    border: none;
+    size: 1000px;
+}
+
+
 #formulario {
     justify-content: center;
+    font-family: 'Lucida Sans';
 }
+
 button {
-    padding: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
     border:#F4BF96;
     background:#F4DFC8;
     border-radius: 3em;
 }
+
+
 button:hover {
 color: #d16f25;
+}
+
+
+.sobre-mi {
+    font-family: 'Lucida Sans';
 }

@@ -1,0 +1,82 @@
+.contenedor {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto-principal h2 {
+    margin: 0% !important;
+    text-align: center;
+   
+}
+
+body {
+    font-family: 'Noto Sans Lydian';
+    background-color: #1B1725;
+    color: #A499B3;
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 100px auto;
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+}
+
+.contenedor .pelicula {
+    text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.paginacion {
+    position: fixed;
+    bottom: 0;
+    background-color:darkblue ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding:  10px;
+
+}
+
+.paginacion button {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    height: 50px;
+    width: 200px;
+    background-color:#226CE0;
+    color: #C6CAED;
+    transition: .3s ease all;
+    font-weight: 600px;
+    border-radius: 60px;
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Noto Sans Lydian';
+
+}
+
+.paginacion button:hover {
+    background-color: #88A0A8;
+    color: darkblue;
+}

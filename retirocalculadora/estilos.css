@@ -1,0 +1,58 @@
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.intro {
+display: flex;
+
+}
+
+.row {
+    display: flexbox;
+}
+
+.parrafo-intro {
+    text-align: justify;
+
+    margin: 5%;
+}
+
+.img-intro img{
+    height: 500px;
+  
+    align-items: center;
+}
+
+
+.trinity-info{
+    margin: auto;
+}
+
+.calculadora {
+    display: flexbox;
+    overflow: auto;
+    float: right;
+}
+
+.calculadora-formulario {
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+
+
+}
+
+.imss {
+    margin: auto;
+    margin-left: 20%;
+}
+
+.imss a {
+color: #FF6584 ;
+}
+
+body{
+    font-family: 'Readex Pro';
+}

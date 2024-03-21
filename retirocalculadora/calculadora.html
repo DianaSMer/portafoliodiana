@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tu Retiro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>¿Cuánto debes ahorrar para tu retiro?</h1>
+
+<div class="row intro">
+
+    <div class="col parrafo-intro">
+        <p>
+            Alguna vez te has preguntado ¿Cómo será tu vida cuando te retires? Si no lo has hecho es momento de considerarlo.
+             <br>
+            El camino hacia la libertad financiera comienza con un paso: ahorrar para el retiro. Cada pequeña contribución que hagas hoy, es una semilla plantada para tu futuro. 
+           
+           
+        </p>
+    </div>
+
+    <div class="col img-intro">
+        <img src="./ImagenesRetiro/pensar.png" alt="Mujer pensando">
+    </div>
+
+</div>  
+
+<div class="row trinity">
+    
+    <div class="col-6 trinity-info">
+    <h3> ¿Cómo calcularlo?</h3>
+        <p>
+            El "Trinity Study" es un estudio que examinó la sostenibilidad de retirarse con un plan de retiro basado en inversiones. Se enfoca en cuánto puedes retirar cada año de tu inversión (como una pensión o una cuenta de inversión) durante la jubilación sin agotar tu dinero antes de morir. Esto se conoce como "tasa de retiro segura". El estudio analizó diferentes tasas de retiro y períodos de tiempo, considerando diferentes mezclas de acciones y bonos, para determinar cuál sería la tasa de retiro segura para garantizar que el dinero dure toda la jubilación.
+       <br>
+       Así que para saber cuánto debes ahorrar para tu retiro tienes que tomar en cuenta dos aspectos:
+       <ul>
+        <li>Tus gastos mensuales </li>
+        <li>Tu aportación al Afore </li>
+       </ul>
+       <br>
+       A partir de esto podrás calcularlo tomando en cuenta que el porcentaje de retiro anual es del 4%, según este estudio.
+        <br>
+        Si quieres calcular tu presupuesto mensual puedes tenerlo aquí:     
+         </p>
+
+
+        
+        <!--<button type="button" class="btn btn-dark" >Calcula tu presupuesto mensual</button> -->
+    </div>
+
+    <div class=" trinity-img">
+        <img src="./ImagenesRetiro/inversion.png" alt="hombre pensndo con una moneda en la mano">
+    </div>
+
+</div>
+
+<div class="row">
+        <div class="col calculadora-formulario">
+
+            <h2>Calculadora cuánto debes ahorrar para tu retiro</h2>
+    
+
+            <form action="post" id="calculadora">
+             <label for="valor1"> Gastos Mensuales</label>
+             <input type="number" class="form-control" id="valor1" placeholder="Escribe el monto de gastos mensuales">
+        
+
+             <label for="valor2">Pensión o Afore mensual</label>
+             <input type="number" class="form-control" id="valor2" placeholder="Escribe el monto que proporcionas al Afore">
+
+
+                <button type="button" class="btn btn-dark" onclick="calcular();"> Calcular </button>
+
+             <p> El resultado es <span id="resultado"> </span></p>
+
+
+        
+             <button type="reset" class="btn btn-light" onclick="limpiar();">Limpiar campos</button>
+
+            </form>
+
+        </div>  
+        <div class="col calculadora-img">
+            <img src="./ImagenesRetiro/calculadora.png" alt="">
+        </div>
+
+</div>
+
+<div class="imss">
+    
+    <p>Si quieres saber cuál sería solo con el aporte para pensionados IMSS con Afore da clic en este <a href="https://www.consar.gob.mx/gobmx/aplicativo/calculadora/imss/">enlace </a></p> 
+    
+</div>
+
+    <script src="funciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
