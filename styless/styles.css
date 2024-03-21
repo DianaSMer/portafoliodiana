@@ -74,16 +74,24 @@ h3 {
     
 }
 form {
-    
+    margin: 10em;
     box-sizing: border-box;
     padding: 1em;
-    background: #fff url(/images/fondo.jpg);
+    background: #fff;
+    justify-content: center;
+    color: #d16f25;
+}
+input {
+    color: #d16f25;
+}
+#formulario {
+    justify-content: center;
 }
 button {
     padding: 1em;
     border:#F4BF96;
     background:#F4DFC8;
-    border-radius: 6em;
+    border-radius: 3em;
 }
 button:hover {
 color: #d16f25;
